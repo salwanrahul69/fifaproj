@@ -5,9 +5,7 @@ name: Node.js CI
 
 on:                 #events with master as target
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:                                ##sequence of tasks
   build:
